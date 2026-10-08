@@ -1,0 +1,33 @@
+[
+  {
+    "N": 4,
+    "limit": 5,
+    "total_s": 145.98836370299978,
+    "per_example_s": 29.197672740599955,
+    "load_s_est": 75,
+    "per_example_s_adj": 14.197672740599955
+  },
+  {
+    "N": 8,
+    "limit": 5,
+    "total_s": 217.3702976489999,
+    "per_example_s": 43.47405952979998,
+    "load_s_est": 75,
+    "per_example_s_adj": 28.47405952979998
+  },
+  {
+    "N": 16,
+    "limit": 5,
+    "total_s": 308.9151723680002,
+    "per_example_s": 61.78303447360004,
+    "load_s_est": 75,
+    "per_example_s_adj": 46.78303447360004
+  },
+  {
+    "N": 32,
+    "limit": 5,
+    "total_s": 120.43352312700017,
+    "per_example_s": null,
+    "status": "OOM at 14.38/14.56 GiB, crashed 7s into example 1"
+  }
+]
